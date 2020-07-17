@@ -1,8 +1,3 @@
-provider "aws" {
-  version = "~> 2.49"  
-  region = "${var.aws_region}"
-}
-
 data "aws_availability_zones" "available" {}
 
 
